@@ -6,7 +6,7 @@ export default function Main() {
         <>
             {/* <!-- End: Header Blue -->
     <!-- Start: Highlight Phone --> */}
-    <section data-aos="fade-up-right" data-aos-duration="700" data-aos-delay="300" class="highlight-phone">
+    <section data-aos="fade-up-right" data-aos-duration="800" data-aos-delay="300" class="highlight-phone">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
