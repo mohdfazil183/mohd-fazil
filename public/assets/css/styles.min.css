@@ -479,7 +479,7 @@ body, .header-blue{
 }
 @media (max-width: 767px) {
   #project{
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
   .contact-clean {
     padding: 20px 0;
