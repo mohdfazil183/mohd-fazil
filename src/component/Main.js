@@ -1,11 +1,8 @@
 import React from 'react'
-import Project from './Project'
-import Contact from './Contact'
+
 export default function Main() {
     return (
-        <>
-            {/* <!-- End: Header Blue -->
-    <!-- Start: Highlight Phone --> */}
+        
     <section data-aos="fade-up-right" data-aos-duration="800" data-aos-delay="300" class="highlight-phone">
         <div class="container">
             <div class="row">
@@ -33,14 +30,5 @@ export default function Main() {
             </div>
         </div>
     </section>
-    {/* <!-- End: Highlight Phone -->
-    <!-- Start: Projects Horizontal --> */}
-   <Project />
-    {/* <!-- End: Projects Horizontal -->
-    <!-- Start: Contact Form Clean --> */}
-    <Contact />
-    {/* <!-- End: Contact Form Clean -->
-    <!-- Start: Footer Basic --> */}
-        </>
     )
 }

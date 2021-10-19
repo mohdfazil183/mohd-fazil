@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Project() {
     return (
-        <section id="project" class="projects-horizontal">
-        <div class="container" data-aos="fade-up-left" data-aos-duration="600" data-aos-delay="200">
+        <section id="project" style={{width:'100%'}} class="projects-horizontal">
+        <div class="container" data-aos="fade-up-left" data-aos-duration="800" data-aos-delay="300">
             {/* <!-- Start: Intro --> */}
             <div class="intro">
                 <h2 class="text-center">Projects</h2>

@@ -5,6 +5,8 @@ import Header from './component/Header';
 import Main from './component/Main';
 import { Switch,Route, BrowserRouter } from 'react-router-dom';
 import CV from './component/CV';
+import Project from './component/Project'
+import Contact from './component/Contact'
 
 
 
@@ -21,6 +23,14 @@ function App() {
           <Route path="/" extact >
             <Header />
             <Main />
+             
+    {/* <!-- Start: Projects Horizontal --> */}
+   <Project />
+    {/* <!-- End: Projects Horizontal -->
+    <!-- Start: Contact Form Clean --> */}
+    <Contact />
+    {/* <!-- End: Contact Form Clean -->
+    <!-- Start: Footer Basic --> */}
           </Route>
         </Switch>
       <Footer/>

@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
     return (
-    <footer data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" class="footer-basic">
+    <footer data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" class="footer-basic">
         {/* <!-- Start: Social Icons --> */}
         <div class="social">
-            <a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
-                    class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
-                href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook "></i></a>
         </div>
         {/* <!-- End: Social Icons -->
         <!-- Start: Links --> */}

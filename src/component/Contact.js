@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
     return (
         <section id="contact" class="contact-clean">
-        <form data-aos="fade-right" data-aos-duration="700" data-aos-delay="150" method="post">
+        <form data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" method="post">
             <h2 class="text-center">Contact us</h2>
             {/* <!-- Start: Success Example --> */}
             <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name" /></div>

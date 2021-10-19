@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-body{
+body, .header-blue{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -190,6 +190,7 @@ body{
   background: 0 0;
 }
 @media (min-width: 768px) {
+  
   .header-blue {
     padding-bottom: 120px;
   }
@@ -477,6 +478,9 @@ body{
   min-height: 160px;
 }
 @media (max-width: 767px) {
+  #project{
+  overflow-x: hidden;
+}
   .contact-clean {
     padding: 20px 0;
   }
@@ -514,4 +518,8 @@ body{
 .projects-horizontal .item .description {
   font-size: 15px;
   margin-bottom: 0;
+}
+.iconImg{
+  color: #444;
+  height: 50px;
 }
