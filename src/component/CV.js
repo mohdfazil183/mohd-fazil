@@ -1,12 +1,13 @@
 import React from 'react'
 import Navigation from './Navigation'
+import '../css/bootstrap.min.css'
 
 export default function CV() {
     return (
 		<div>
 			<Navigation data="cv" />
             <main class="page cv-page">
-		<section class="portfolio-block block-intro border-bottom">
+		   <section class="portfolio-block block-intro border-bottom">
 			<div class="container">
 						<div class="avatar"
 							style={{ backgroundImage: "url('./assets/img/avatars/avatar.jpg') "}}>

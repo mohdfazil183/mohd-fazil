@@ -6,28 +6,12 @@ body, .header-blue{
   padding: 0;
   overflow-x: hidden;
 }
-.contact-clean {
-  background: #f1f7fc;
-  padding: 80px 0;
+.navlink{
+  color: #fff !important;
+  padding-right:20px;
 }
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background: linear-gradient(135deg, #172a74, #21a9af);
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
+.navlink:hover{
+  color: rgb(166, 221, 255) !important;
 }
 .contact-clean {
   background: #f1f7fc;

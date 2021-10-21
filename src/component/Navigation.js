@@ -1,29 +1,34 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { Navbar, Container, Nav } from 'react-bootstrap'
 export default function Navigation(props) {
     if (props.data === "cv") {
-        var classname = "navbar navbar-dark navbar-expand-lg fixed-top header-blue"
+        var classname = " header-blue"
+        var top="top"
         var link = '/'
+       var height='200px'
     } else {
-        var classname = "navbar navbar-dark navbar-expand-md navigation-clean-search"
+        var classname = " "
         var link = '/'
-    }
+        var top =""
+    }  
     return (
-        <nav class={classname}>
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img style={{height:'90px'}} src="./assets/img/f.png"/></a><button data-bs-toggle="collapse" class="navbar-toggler"
-                    data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse text-center justify-content-center align-items-center"
-                    id="navcol-1">
-                    <ul class="navbar-nav">
-                <li class="nav-item"><Link class="nav-link" to="/cv">Curriculum vitae</Link></li>
-                        <li class="nav-item"><a class="nav-link" href={`${link} #project`}>Project</a></li>
-                <li class="nav-item"><a class="nav-link" href={`${link} #contact`}>Hire Me</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <Navbar style={{height:{height}}} className={classname} fixed={top} navigation="clean" bg="transparent" expand="md">
+            <Container>
+                <Navbar.Brand href="/"><img style={{height:'90px'}} src="./assets/img/f.png"/></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse className="collapse navbar-collapse text-center justify-content-center align-items-center" id="basic-navbar-nav">
+                    <Nav >
+                        <Nav.Item>
+                        <Nav.Link className="navlink" closeVarient='white' href="/cv ">Curriculum vitae</Nav.Link></Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link className="navlink" href={`${link} #project`}>Project</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link className="navlink"  href={`${link} #contact`}>Contact</Nav.Link>
+                        </Nav.Item>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
     )
 }

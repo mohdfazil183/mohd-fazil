@@ -5,8 +5,8 @@ import Header from './component/Header';
 import Main from './component/Main';
 import { Switch,Route, BrowserRouter } from 'react-router-dom';
 import CV from './component/CV';
-import Project from './component/Project'
-import Contact from './component/Contact'
+import Project from './component/Project';
+import Contact from './component/Contact';
 
 
 
@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <a id="myBtn" href="#top">Top</a>
         <Switch >
           <Route path="/cv">
             <CV />
