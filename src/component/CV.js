@@ -41,7 +41,7 @@ export default function CV() {
 					</div>
 					<div class="item">
 						<div class="row">
-							<div class="col-6">
+							<div class="col-md-6">
 								<h3>React Front Developer</h3>
 								<h4 class="organization">Self</h4>
 							</div>
