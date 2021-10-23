@@ -1,14 +1,15 @@
 import React from 'react';
+import { IoLogoFacebook, IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
 
 export default function Footer() {
     return (
     <footer data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" class="footer-basic">
         {/* <!-- Start: Social Icons --> */}
         <div class="social">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-facebook "></i></a>
+                <a href="#"><i class="icon"><IoLogoGithub/></i></a>
+                <a href="#"><i class="icon"><IoLogoInstagram/></i></a>
+                <a href="#"><i class="icon"><IoLogoLinkedin/></i></a>
+                <a href="#"><i class="icon"><IoLogoFacebook/></i></a>
         </div>
         {/* <!-- End: Social Icons -->
         <!-- Start: Links --> */}

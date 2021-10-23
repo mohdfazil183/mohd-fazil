@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 import '../css/bootstrap.min.css'
+import { IoPerson, IoCall,IoCalendarOutline,IoAt} from 'react-icons/io5'
 
 export default function CV() {
     return (
@@ -133,19 +134,19 @@ export default function CV() {
 							<div class="contact-info portfolio-info-card">
 								<h2>Contact Info</h2>
 								<div class="row">
-									<div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
+									<div class="col-1"><i class="icon"><IoCalendarOutline/></i></div>
 									<div class="col-9"><span>09/04/1996</span></div>
 								</div>
 								<div class="row">
-									<div class="col-1"><i class="icon ion-person icon"></i></div>
+									<div class="col-1"><i class="icon"><IoPerson/></i></div>
 									<div class="col-9"><span>Mohd Fazil</span></div>
 								</div>
 								<div class="row">
-									<div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+									<div class="col-1"><i class="icon "><IoCall/></i></div>
 									<div class="col-9"><span>+91 735 441 83</span></div>
 								</div>
 								<div class="row">
-									<div class="col-1"><i class="icon ion-at icon"></i></div>
+									<div class="col-1"><i class=" icon"><IoAt/></i></div>
 									<div class="col-9"><span>kfazil185@gmail.com</span></div>
 								</div>
 							</div>

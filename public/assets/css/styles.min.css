@@ -109,7 +109,6 @@ body, .header-blue{
   font-size: 24px;
   width: 40px;
   height: 40px;
-  line-height: 40px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -494,6 +493,7 @@ body, .header-blue{
   margin-bottom: 15px;
   color: inherit;
 }
+
 @media (max-width: 991px) {
   .projects-horizontal .item .name {
     margin-top: 22px;
