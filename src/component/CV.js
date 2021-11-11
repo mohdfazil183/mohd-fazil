@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './Navigation'
-import '../css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { IoPerson, IoCall,IoCalendarOutline,IoAt} from 'react-icons/io5'
 
 export default function CV() {
