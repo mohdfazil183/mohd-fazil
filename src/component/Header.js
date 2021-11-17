@@ -11,7 +11,7 @@ export default function Header() {
                 {/* <!-- Start: Text --> */}
                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
                     <h1 style={{paddingBottom:'5px'}} class="text-center border-primary shadow">Mohd Fazil.</h1>
-                    <p>Hello! I am Mohd&nbsp; Fazil. I am a MERN Developer, and PHP as well. I have been working in this
+                    <p>Hello! I am Mohd&nbsp; Fazil. I am a MERN Developer. I have been working in this
                         field for last 2 years.&nbsp;</p>
                     <a id='btn' class="btn btn-light btn-lg font-monospace text-truncate action-button" href="./assets/img/resume.pdf">Resume</a>
                 </div>

@@ -7,9 +7,9 @@ export default function Navigation(props) {
         var link = '/'
        var height='200px'
     } else {
-        var classname = " "
-        var link = '/'
-        var top =""
+         classname = " "
+         link = '/'
+         top =""
     }  
     return (
         <Navbar style={{height:{height}}} className={classname} fixed={top} navigation="clean" bg="transparent" expand="md">

@@ -16,7 +16,7 @@ export default function CV() {
 				</div>
 				<div class="about-me">
 					<p>
-						Hello! I am <strong>Mohd Fazil.</strong> I am a MERN Developer, and PHP as well. I have been working in this
+						Hello! I am <strong>Mohd Fazil.</strong> I am a MERN Developer. I have been working in this
                         field for last 2 years.&nbsp;
 					</p>
 					<a class="btn btn-outline-primary" role="button" href="./assets/img/resume.pdf">Hire me</a>
@@ -29,16 +29,20 @@ export default function CV() {
 					<div class="heading">
 						<h2 class="text-center">Work Experience</h2>
 					</div>
+					
+					
 					<div class="item">
 						<div class="row">
 							<div class="col-md-6">
-								<h3>PHP Developer</h3>
+								<h3>MERN Stack Developer</h3>
 								<h4 class="organization">Self</h4>
 							</div>
-							<div class="col-md-6"><span class="period">2018 - /2019</span></div>
+							<div class="col-md-6"><span class="period">2020 - Present</span></div>
 						</div>
 						<p class="text-muted">
-							 I learnt PHP at Udemy as my first web development course. I have done some project 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies,
+							feugiat est sed,
+							efficitur nunc, vivamus vel accumsan dui.
 						</p>
 					</div>
 					<div class="item">
@@ -58,15 +62,13 @@ export default function CV() {
 					<div class="item">
 						<div class="row">
 							<div class="col-md-6">
-								<h3>MERN Stack Developer</h3>
+								<h3>PHP Developer</h3>
 								<h4 class="organization">Self</h4>
 							</div>
-							<div class="col-md-6"><span class="period">2020 - Present</span></div>
+							<div class="col-md-6"><span class="period">2018 - /2019</span></div>
 						</div>
 						<p class="text-muted">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies,
-							feugiat est sed,
-							efficitur nunc, vivamus vel accumsan dui.
+							 I learnt PHP at Udemy as my first web development course. I have done some project 
 						</p>
 					</div>
 				</div>
@@ -144,7 +146,7 @@ export default function CV() {
 								</div>
 								<div class="row">
 									<div class="col-1"><i class="icon "><IoCall/></i></div>
-									<div class="col-9"><span>+91 735 441 83</span></div>
+									<div class="col-9"><span>+91 73 555 441 83</span></div>
 								</div>
 								<div class="row">
 									<div class="col-1"><i class=" icon"><IoAt/></i></div>
